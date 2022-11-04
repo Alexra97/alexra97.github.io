@@ -27,8 +27,12 @@ a {
 
 .contenedor {
   max-width: 1280px;
-  width: 90%;
   margin: auto;
+}
+
+.contenedor-titulo {
+  text-align: center;
+  margin-top: 20vh;
 }
 
 header {
@@ -37,14 +41,6 @@ header {
               url(imagenes/fondo.jpg);
   height: 100vh;
   background-size: cover;
-}
-
-#contenedor-titulo-flex {
-  display: flex;
-  justify-content: center;
-  margin: 18vh 0;
-  max-width: 1580px;
-  width: 100%;
 }
 
 h1 {
