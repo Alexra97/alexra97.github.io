@@ -32,13 +32,13 @@ a {
 
 .contenedor-titulo {
   text-align: center;
-  margin-top: 20vh;
+  margin-top: 27vh;
 }
 
 header {
-  background: linear-gradient(rgba(84,93,220,.9),
-              rgba(96,171,245,.9)),
-              url(imagenes/fondo.jpg);
+  background: linear-gradient(rgba(0,0,0,.0),
+              rgba(72,201,176,.3)),
+              url(imagenes/fondo.jpg)
   height: 100vh;
   background-size: cover;
 }
@@ -62,7 +62,7 @@ h2 {
                   #a-que-esperas a, input[type="submit"] {
   font-size: 14px;
   color: #fff;
-  background: #5cb8ff;
+  background: #45B39D;
   padding: 14px 24px;
   width: 128px;
   display: inline-block;
