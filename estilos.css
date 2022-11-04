@@ -32,7 +32,7 @@ a {
 
 .contenedor-titulo {
   text-align: center;
-  margin-top: 27vh;
+  margin-top: 32vh;
 }
 
 header {
@@ -93,7 +93,7 @@ h3 {
   width: 42%;
 }
 
-img {
+.perfil {
   border-radius: 50%;
 }
 
