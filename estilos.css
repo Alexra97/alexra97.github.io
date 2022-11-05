@@ -98,10 +98,11 @@ h3 {
 #about-me .contenedor-aboutme {
   display: flex;
   justify-content: space-evenly;
+  font-size: 17px;
 }
 
 #about-me .texto {
-  width: 42%;
+  width: 44%;
   margin-top: 7vh;
 }
 
