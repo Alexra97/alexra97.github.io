@@ -10,7 +10,7 @@ body {
 header .contenedor {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5vh;
+  margin-bottom: 6vh;
 }
 
 header ul {
@@ -24,6 +24,7 @@ header ul li {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .contenedor {
@@ -35,7 +36,7 @@ a {
 .contenedor-titulo {
   text-align: center;
   margin-top: 32vh;
-  margin-bottom: 47vh;
+  margin-bottom: 53vh;
 }
 
 header {
