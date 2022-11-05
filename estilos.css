@@ -9,7 +9,6 @@ body {
 
 header .contenedor {
   display: flex;
-  flex-warp: wrap;
   justify-content: space-between;
   margin-bottom: 5vh;
 }
@@ -28,6 +27,7 @@ a {
 }
 
 .contenedor {
+  flex-direction: column;
   max-width: 95%;
   margin: auto;
 }
@@ -110,6 +110,7 @@ h3 {
 
 #institutions .item {
   text-align: center;
+  flex-direction: column;
 }
 
 .ins-img {
