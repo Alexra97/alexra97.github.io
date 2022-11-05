@@ -133,6 +133,10 @@ h3 {
   line-height: 31px;
 }
 
+ul {
+ flex-direction: column; 
+}
+
 /* OTHER COURSES */
 .contenedor-courses {
   display: flex;
