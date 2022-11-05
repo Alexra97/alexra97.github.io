@@ -61,6 +61,15 @@ h2 {
   text-align: center;
 }
 
+.lista {
+ display: flex; 
+}
+
+.contenedor-menu {
+  max-width: 95%;
+  margin: auto;
+}
+
 #blog a, #a-que-esperas a, input[type="submit"] {
   font-size: 14px;
   color: #fff;
@@ -302,10 +311,6 @@ textarea {
   .menu-icon {
     display: block;
     width: 25px;
-  }
-  
-  .contenedor-titulo-flex {
-    margin-top: 54px;
   }
   
   h1 {
