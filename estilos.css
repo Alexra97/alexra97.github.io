@@ -197,9 +197,14 @@ ul {
   float: right;
 }
 
-/* MIS TRABAJOS */
+/* MY PROJECTS */
 button.owl-prev, button.owl-next {
   font-size: 40px !important;
+}
+
+.owl-carousel .owl-stage {
+  display:flex !important;
+  height: 30%;
 }
 
 span {
