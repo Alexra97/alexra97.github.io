@@ -62,7 +62,7 @@ h2 {
 }
 
 .lista {
- display: flex; 
+  flex-direction: row; 
 }
 
 .contenedor-menu {
