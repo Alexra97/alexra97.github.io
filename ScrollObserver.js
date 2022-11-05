@@ -1,15 +1,17 @@
-const contenedor_titulo = document.querySelector('.contenedor-titulo');
-contenedor_titulo.classList.remove('contenedor-titulo-transition');
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
 
-const observer_title = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      contenedor_titulo.classList.add('contenedor-titulo-transition');
-      return;
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
     }
+  }
+}
 
-    contenedor_titulo.classList.remove('contenedor-titulo-transition');
-  });
-});
-
-observer_title.observe(document.querySelector('.contenedor-titulo-wrapper'));
+window.addEventListener("scroll", reveal);
