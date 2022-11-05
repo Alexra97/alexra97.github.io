@@ -215,6 +215,10 @@ button.owl-prev, button.owl-next {
       height: 100%;
 }
 
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: true;
+}
+
 span {
     color: #595be5;
 }
