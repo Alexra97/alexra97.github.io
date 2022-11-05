@@ -1,17 +1,17 @@
 // Remove the transition class
-const square = document.querySelector('.square');
-square.classList.remove('square-transition');
+const contenedor_titulo = document.querySelector('.contenedor-titulo');
+contenedor_titulo.classList.remove('contenedor-titulo-transition');
 
 // Create the observer
-const observer = new IntersectionObserver(entries => {
+const observer_title = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      square.classList.add('square-transition');
+      contenedor_titulo.classList.add('contenedor-titulo-transition');
       return;
     }
 
-    square.classList.remove('square-transition');
+    contenedor_titulo.classList.remove('contenedor-titulo-transition');
   });
 });
 
-observer.observe(document.querySelector('.square-wrapper'));
+observer_title.observe(document.querySelector('.contenedor-titulo-wrapper'));
