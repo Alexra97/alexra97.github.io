@@ -14,4 +14,4 @@ $(document).ready(function () {
   });
 
   observer_title.observe(document.querySelector('.contenedor-titulo-wrapper'));
-}
+})
