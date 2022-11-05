@@ -63,11 +63,13 @@ h2 {
 
 .lista {
   flex-direction: row; 
+  font-size: 19px;
 }
 
 .contenedor-menu {
   max-width: 95%;
   margin: auto;
+  display: flex;
 }
 
 #blog a, #a-que-esperas a, input[type="submit"] {
@@ -115,12 +117,13 @@ h3 {
 .contenedor-institutions, .contenedor-institutions2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 #institutions .item {
   text-align: center;
   flex-direction: column;
+  width: 25%;
 }
 
 .ins-img {
