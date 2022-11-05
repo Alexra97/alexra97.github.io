@@ -9,7 +9,7 @@ body {
 
 header .contenedor {
   display: flex;
-  flex-direction: column;
+  flex-warp: wrap;
   justify-content: space-between;
 }
 
