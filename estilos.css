@@ -86,7 +86,7 @@ h3 {
 
 #sobre-mi .contenedor-sobremi {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 #sobre-mi .texto {
@@ -94,6 +94,7 @@ h3 {
 }
 
 .perfil {
+  height: 550px;
   border-radius: 50%;
 }
 
@@ -347,4 +348,24 @@ textarea {
 @media (min-width: 700px) and (max-width:900px) {
  header {
    height: 53vh;
+}
+  
+  .square {
+    width: 200px;
+    height: 200px;
+    background: teal;
+    border-radius: 8px;
+    opacity: 0;
+    transform: scale(1.2);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .contenedor-titulo {
+    transition: opacity 1.5s ease, transform 1.5s ease;
+  }
+}
+
+.contenedor-titulo-transition {
+    opacity: 1;
+    transform: none;
 }
