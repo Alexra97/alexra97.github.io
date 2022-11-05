@@ -207,19 +207,6 @@ button.owl-prev, button.owl-next {
   font-size: 40px !important;
 }
 
-.owl-carousel .owl-stage {
-      display: flex;
-}
-
-.owl-carousel .owl-item img {
-      width: auto;
-      height: 100%;
-}
-
-.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
-    display: true;
-}
-
 span {
     color: #595be5;
 }
