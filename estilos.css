@@ -64,12 +64,14 @@ h2 {
 .lista {
   flex-direction: row; 
   font-size: 19px;
+  line-height: 23px;
 }
 
 .contenedor-menu {
   max-width: 95%;
   margin: auto;
   display: flex;
+  justify-content: space-between;
 }
 
 #blog a, #a-que-esperas a, input[type="submit"] {
