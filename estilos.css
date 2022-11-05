@@ -106,9 +106,12 @@ h3 {
 }
 
 #institutions .item {
+  text-align: center;
+}
+
+.ins-img {
   height: 50px;
   border-radius: 50%;
-  text-align: center;
 }
 
 #institutions ul li {
