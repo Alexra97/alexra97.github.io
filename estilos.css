@@ -65,7 +65,7 @@ h2 {
 .lista {
   flex-direction: row; 
   font-size: 19px;
-  line-height: 23px;
+  line-height: 31px;
 }
 
 .contenedor-menu {
@@ -87,6 +87,7 @@ h2 {
 p.logo {
   color: #fff;
   font-size: 20px;
+  line-height: 31px;
 }
 
 nav ul li a {
