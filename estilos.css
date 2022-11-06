@@ -164,7 +164,7 @@ ul {
 
 .contenedor-skills {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .contenedor-pie {
@@ -172,9 +172,9 @@ ul {
   flex-direction: column;
 }
 
-.owl-skills {
-  width: 20% !important;
-  margin: auto;
+.owl-skills .item {
+  margin-left: 50px;
+  width: 20%;
 }
 
 .item {
