@@ -185,6 +185,7 @@ ul {
 
 ul {
  flex-direction: column; 
+ padding-inline-start: 0px;
 }
 
 h4 {
