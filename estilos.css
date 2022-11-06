@@ -183,6 +183,10 @@ ul {
   text-align: center;
 }
 
+.lista-skills li:nth-child(1) {
+  color: #45B39D;
+}
+
 ul {
  flex-direction: column; 
  padding-inline-start: 0px;
