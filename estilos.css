@@ -163,7 +163,8 @@ ul {
 }
 
 .contenedor-skills {
-  display: flex
+  display: flex;
+  justify-content: center;
 }
 
 .lista-skills {
