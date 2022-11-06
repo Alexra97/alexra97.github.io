@@ -172,6 +172,12 @@ ul {
   flex-direction: column;
 }
 
+.owl-skills {
+  background-color: #FFFFFF;
+  width: 48%;
+  margin: auto;
+}
+
 .lista-skills {
   list-style: none;
   line-height: 31px;
