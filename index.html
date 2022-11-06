@@ -4,7 +4,6 @@
 <head>
   <link rel="stylesheet" href="estilos.css">
   <script src="ScrollObserver.js" defer></script>
-  <script src="ProgressBar.js" defer></script>
   <meta charset="utf-8">
   <title>Alejandro R. López</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
@@ -169,66 +168,60 @@
         <h3>My skills</h3>
         <div class="contenedor-skills">
           <div class="owl-skills owl-theme">
-            <div class="circular">
-              <div class="inner"></div>
-              <div class="number">100%</div>
-              <div class="circle">
-                  <div class="bar left">
-                      <div class="progress"></div>
-                  </div>
-                  <div class="bar right">
-                      <div class="progress"></div>
-                  </div>
+            <div class="contenedor-pie">
+              <div class="circleChart" id="cien"></div>
+              <div class="inside-circle">
+                <ul class="lista-skills">
+                  <li>5/5</li>
+                  <li>R</li>
+                  <li>Python</li>
+                </ul>
               </div>
             </div>
-            <div class="inside-circle">
-              <ul class="lista-skills">
-                <li>5/5</li>
-                <li>R</li>
-                <li>Python</li>
-              </ul>
-            </div>
-            
             
 
 
           </div>
           <div class="owl-skills owl-theme">
-            <div class="circular">
-              <div class="inner"></div>
-              <div class="number">66%</div>
-              <div class="circle">
-                  <div class="bar left">
-                      <div class="progress"></div>
-                  </div>
-                  <div class="bar right">
-                      <div class="progress"></div>
-                  </div>
+            <div class="contenedor-pie">
+              <div class="circular">
+                <div class="inner"></div>
+                <div class="number">66%</div>
+                <div class="circle">
+                    <div class="bar left">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="bar right">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+              </div>
+              <div class="inside-circle">
+                <ul class="lista-skills">
+                  <li>English</li>
+                  <li>B2</li>
+                </ul>
               </div>
             </div>
-            <div class="inside-circle">
-              <ul class="lista-skills">
-                <li>English</li>
-                <li>B2</li>
-              </ul>
-            </div>
-            <div class="circular">
-              <div class="inner"></div>
-              <div class="number">100%</div>
-              <div class="circle">
-                  <div class="bar left">
-                      <div class="progress"></div>
-                  </div>
-                  <div class="bar right">
-                      <div class="progress"></div>
-                  </div>
+            <div class="contenedor-pie">
+              <div class="circular">
+                <div class="inner"></div>
+                <div class="number">100%</div>
+                <div class="circle">
+                    <div class="bar left">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="bar right">
+                        <div class="progress"></div>
+                    </div>
+                </div>
               </div>
-            </div>
-            <div class="inside-circle">
-              <ul class="lista-skills">
-                <li>Spanish</li>
-                <li>Native</li>
-              </ul>
+              <div class="inside-circle">
+                <ul class="lista-skills">
+                  <li>Spanish</li>
+                  <li>Native</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -298,7 +291,6 @@
     center: true,
     autoplay: true,
     autoplayHoverPause: true,
-    autoheight: true,
     responsive:{
         0:{
             items:1
@@ -320,13 +312,41 @@
     center: true,
     autoplay: true,
     autoplayHoverPause: true,
-    autoheight: true,
     items:1})
     
   $('.menu-icon').click(function(){
   $('header nav').slideToggle();
   })  
   </script>
+  <script src="//code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <script src="src/circleChart.js"></script>
+  <script type="text/javascript">
+    $("#demo").circleChart({
+      color:"#3459eb",
+      backgroundColor:"#e6e6e6",
+      background:true,
+      speed: 2000,
+      widthRatio: 0.2,
+      value: 66,
+      unit:'percent',
+      counterclockwise:false,
+      size: 110,
+      startAngle: 0,
+      animate:true,
+      backgroundFix:true,
+      lineCap:"round",
+      animation:"easeInOutCubic",
+      text: 0 +'%',
+      redraw:false,
+      cAngle: 0.1,
+      textCenter:false,
+      textSize:false,
+      relativeTextSize: 1 / 7,
+      autoCss:true,
+      onDraw:function(){}
+    });
+</script>
+  
 </body>
 
 </html>
