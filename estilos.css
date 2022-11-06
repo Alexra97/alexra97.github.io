@@ -173,9 +173,12 @@ ul {
 }
 
 .owl-skills {
-  background-color: #FFFFFF;
-  width: 48%;
+  width: 20% !important;
   margin: auto;
+}
+
+.item {
+  background-color: #FFFFFF;
 }
 
 .lista-skills {
