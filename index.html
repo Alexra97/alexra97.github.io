@@ -4,6 +4,7 @@
 <head>
   <link rel="stylesheet" href="estilos.css">
   <script src="ScrollObserver.js" defer></script>
+  <script src="ProgressBar.js" defer></script>
   <meta charset="utf-8">
   <title>Alejandro R. López</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
@@ -163,25 +164,71 @@
       </div>
     </section>
 
-    <section id="courses">
+    <section id="skills">
       <div class="contenedor">
-        <h3>Other courses</h3>
-        <div class="owl-carousel owl-theme">
-          <div class="publicacion"><a href="">
-            <img src="imagenes/blog1.jpg">
-            <div class="contenido">
-              <h4>No alcanza con tener solamente una
-              página web</h4>
-              <p>¿Quieres aprendfdsfra generar tráfico?</p></a>
+        <h3>My skills</h3>
+        <div class="contenedor-skills">
+          <div class="owl-skills owl-theme">
+            <div class="circular">
+              <div class="inner"></div>
+              <div class="number">100%</div>
+              <div class="circle">
+                  <div class="bar left">
+                      <div class="progress"></div>
+                  </div>
+                  <div class="bar right">
+                      <div class="progress"></div>
+                  </div>
+              </div>
             </div>
+            <div class="inside-circle">
+              <ul class="lista-skills">
+                <li>5/5</li>
+                <li>R</li>
+                <li>Python</li>
+              </ul>
+            </div>
+            
+            
+
+
           </div>
-          <div class="publicacion"><a href="">
-            <img src="imagenes/blog2.jpg">
-            <div class="contenido">
-              <h4>¿Qué es el marketing y cómo utilizarlo?</h4>
-              <p>El marketing es una de las técnicas más
-              utilizadas por las mejores compañias. ¿Quieres
-              saber de que se trata?</p></a>
+          <div class="owl-skills owl-theme">
+            <div class="circular">
+              <div class="inner"></div>
+              <div class="number">66%</div>
+              <div class="circle">
+                  <div class="bar left">
+                      <div class="progress"></div>
+                  </div>
+                  <div class="bar right">
+                      <div class="progress"></div>
+                  </div>
+              </div>
+            </div>
+            <div class="inside-circle">
+              <ul class="lista-skills">
+                <li>English</li>
+                <li>B2</li>
+              </ul>
+            </div>
+            <div class="circular">
+              <div class="inner"></div>
+              <div class="number">100%</div>
+              <div class="circle">
+                  <div class="bar left">
+                      <div class="progress"></div>
+                  </div>
+                  <div class="bar right">
+                      <div class="progress"></div>
+                  </div>
+              </div>
+            </div>
+            <div class="inside-circle">
+              <ul class="lista-skills">
+                <li>Spanish</li>
+                <li>Native</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -263,6 +310,16 @@
         }
       }
     })
+    
+    $('.owl-skills').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    center: true,
+    autoplay: true,
+    autoplayHoverPause: true,
+    items:1
     
   $('.menu-icon').click(function(){
   $('header nav').slideToggle();
