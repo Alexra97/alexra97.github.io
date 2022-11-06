@@ -282,17 +282,17 @@
       }
     })
     
-    $('.owl-skills').owlCarousel({
-    loop:false,
-    margin:10,
-    nav:true,
-    dots:false,
-    center: true,
-    autoplay: true,
-    autoplayHoverPause: true,
-    singleItem:true,
-    items: 1,
-    })
+    $('.owl-skills').addClass('owl-carousel').owlCarousel({
+        loop:false,
+        margin:10,
+        nav:true,
+        dots:false,
+        center: true,
+        autoplay: true,
+        autoplayHoverPause: true,
+        singleItem:true,
+        items: 1,
+    });
     
   $('.menu-icon').click(function(){
   $('header nav').slideToggle();
