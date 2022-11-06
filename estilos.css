@@ -172,19 +172,15 @@ ul {
   flex-direction: column;
 }
 
-.owl-skills .item {
-  margin-left: 50px;
-  width: 20%;
-}
-
-.item {
-  background-color: #FFFFFF;
+.carousel {
+  width: 48%;
 }
 
 .lista-skills {
   list-style: none;
   line-height: 31px;
   font-size: 19px;
+  text-align: center;
 }
 
 ul {
