@@ -302,7 +302,7 @@ textarea {
   display: none;
 }
 
-/* DISEÑO RESPONSIVE */
+/* RESPONSIVE DESIGN */
 @media (max-width: 800px) {
   nav {
     position: absolute;
