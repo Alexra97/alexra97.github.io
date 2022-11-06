@@ -167,6 +167,11 @@ ul {
   justify-content: center;
 }
 
+.contenedor-pie {
+  display: flex;
+  flex-direction: column;
+}
+
 .lista-skills {
   list-style: none;
   line-height: 31px;
