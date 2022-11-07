@@ -3,7 +3,6 @@
 
 <head>
   <link rel="stylesheet" href="estilos.css">
-  <script src="ScrollObserver.js" defer></script>
   <meta charset="utf-8">
   <title>Alejandro R. López</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
@@ -31,7 +30,7 @@
       </div>
     </div>
 
-    <div class="contenedor-titulo reveal">
+    <div class="contenedor-titulo">
       <h1>Alejandro R. López</h1>
       <h2>Computer Engineer & Bioinformatician. Passionate about AI.</h2>
     </div>
@@ -42,7 +41,7 @@
     <section id="about-me">
       <div class="contenedor">
         <h3>About me</h3>
-        <div class="contenedor-aboutme reveal">
+        <div class="contenedor-aboutme">
           <div class="perfil-contenedor">
             <img class="perfil" src="imagenes/perfil.jpg">
           </div>
@@ -178,23 +177,26 @@
                 </ul>
               </div>
               <div class="contenedor-pie">
-                <div class="circleChart" id="cien"></div>
+                <div class="circleChart" id="ochenta"></div>
                 <ul class="lista-skills">
+                  <li><span>&#x25cf;&#x25cf;&#x25cf;&#x25cf;&#x25cb;</span></li>
                   <li>Java</li>
                   <li>Latex</li>
                   <li>Microsoft Office</li>
                 </ul>
               </div>
               <div class="contenedor-pie">
-                <div class="circleChart" id="cien"></div>
+                <div class="circleChart" id="sesenta"></div>
                 <ul class="lista-skills">
+                  <li><span>&#x25cf;&#x25cf;&#x25cf;&#x25cb;&#x25cb;</span></li>
                   <li>C/C++</li>
                   <li>Unix Shell</li>
                 </ul>
               </div>
               <div class="contenedor-pie">
-                <div class="circleChart" id="cien"></div>
+                <div class="circleChart" id="cuarenta"></div>
                 <ul class="lista-skills">
+                  <li><span>&#x25cf;&#x25cf;&#x25cb;&#x25cb;&#x25cb;</span></li>
                   <li>MATLAB</li>
                   <li>Swift 4</li>
                   <li>SQL-92</li>
@@ -309,6 +311,78 @@
       speed: 1500,
       widthRatio: 0.2,
       value: 100,
+      unit:'percent',
+      counterclockwise:false,
+      size: 200,
+      startAngle: 0,
+      animate:true,
+      backgroundFix:true,
+      lineCap:"round",
+      animation:"easeInOutCubic",
+      redraw:false,
+      cAngle: 0.1,
+      textCenter:false,
+      textSize:false,
+      relativeTextSize: 1 / 7,
+      autoCss:true,
+      onDraw:function(){}
+    });
+    
+    $("#ochenta").circleChart({
+      color:"#45B39D",
+      backgroundColor:"#e6e6e6",
+      background:true,
+      speed: 1500,
+      widthRatio: 0.2,
+      value: 80,
+      unit:'percent',
+      counterclockwise:false,
+      size: 200,
+      startAngle: 0,
+      animate:true,
+      backgroundFix:true,
+      lineCap:"round",
+      animation:"easeInOutCubic",
+      redraw:false,
+      cAngle: 0.1,
+      textCenter:false,
+      textSize:false,
+      relativeTextSize: 1 / 7,
+      autoCss:true,
+      onDraw:function(){}
+    });
+    
+    $("#sesenta").circleChart({
+      color:"#45B39D",
+      backgroundColor:"#e6e6e6",
+      background:true,
+      speed: 1500,
+      widthRatio: 0.2,
+      value: 60,
+      unit:'percent',
+      counterclockwise:false,
+      size: 200,
+      startAngle: 0,
+      animate:true,
+      backgroundFix:true,
+      lineCap:"round",
+      animation:"easeInOutCubic",
+      redraw:false,
+      cAngle: 0.1,
+      textCenter:false,
+      textSize:false,
+      relativeTextSize: 1 / 7,
+      autoCss:true,
+      onDraw:function(){}
+    });
+    
+    $("#cuarenta").circleChart({
+      color:"#45B39D",
+      backgroundColor:"#e6e6e6",
+      background:true,
+      speed: 1500,
+      widthRatio: 0.2,
+      value: 40,
       unit:'percent',
       counterclockwise:false,
       size: 200,
