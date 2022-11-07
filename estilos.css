@@ -157,7 +157,7 @@ ul {
 
 .contenedor-skills {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .contenedor-pie {
