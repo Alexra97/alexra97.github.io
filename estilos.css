@@ -178,7 +178,7 @@ ul {
   width: 20%;
 }
 
-.lista-skills {
+.lista-skills .lista-lang {
   list-style: none;
   line-height: 31px;
   font-size: 19px;
@@ -211,7 +211,7 @@ p {
   margin-bottom: 20px;
 }
 
-.owl-lang .owl-nav {
+.owl-lang span {
     color: #45B39D;
 }
 
