@@ -256,10 +256,6 @@ span {
     margin-bottom: 5vh;
 }
 
-input div.inner-input {
-   border: 1px #45B39D;
-}
-
 #contacto form {
   display: flex;
   justify-content: space-between;
@@ -273,14 +269,14 @@ input[type="text"], input[type="email"] {
   margin-bottom: 15px;
   padding: 18px 0;
   border: 0;
-  border-bottom: 1px solid #5cb8ff;
+  border-bottom: 1px solid #45B39D;
   font-size: 17px;
 }
 
 textarea {
   padding: 18px 0;
   border: 0;
-  border-bottom: 1px solid #5cb8ff;
+  border-bottom: 1px solid #45B39D;
   font-size: 17px;
   margin-bottom: 40px;
   width: 100%;
