@@ -218,7 +218,7 @@ span {
 /* HEADER CONTACT */
 #header-contact {
   background: linear-gradient(rgba(84, 93, 220, .94),
-              rgba(96, 171, 245, .9));
+              rgba(69, 179, 157, .9));
   text-align: center;
   padding: 5px 0;
   margin-top: 40px;
@@ -244,6 +244,9 @@ span {
     padding: 14px 24px;
     width: 128px;
     display: inline-block;
+    width: 166px;
+    margin: auto;
+    margin-bottom: 5vh;
 }
 
 #contacto form {
@@ -270,12 +273,6 @@ textarea {
   font-size: 17px;
   margin-bottom: 40px;
   width: 100%;
-}
-
-#contacto input[type="submit"] {
-  width: 166px;
-  margin: auto;
-  margin-bottom: 5vh;
 }
 
 .menu-icon {
