@@ -275,18 +275,23 @@ span {
   width: 87px;
 }
 
-/* SECCIÓN A QUE ESPERAS */
-#a-que-esperas {
+/* HEADER CONTACT */
+#header-contact {
   background: linear-gradient(rgba(84, 93, 220, .94),
               rgba(96, 171, 245, .9));
   text-align: center;
-  padding: 50px 0;
+  padding: 0px 0;
   margin-top: 40px;
 }
 
-#a-que-esperas h3 {
+#header-contact h3 {
   font-size: 23px;
   color: #fff;
+}
+
+.contenedor-h-contact {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* SECCIÓN CONTACTO */
