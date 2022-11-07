@@ -169,26 +169,11 @@ ul {
   width: 20%;
 }
 
-.lista-skills  {
+.lista-skills .lista-lang {
   list-style: none;
   line-height: 31px;
   font-size: 19px;
   text-align: center;
-}
-
-.lista-lang {
-  list-style: none;
-  line-height: 31px;
-  font-size: 19px;
-  text-align: center;
-}
-
-.lista-skills li:nth-child(1) {
-  color: #45B39D;
-}
-
-.lista-lang li:nth-child(1) {
-  color: #A93226;
 }
 
 .lista-lang li:nth-child(2) {
