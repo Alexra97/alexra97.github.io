@@ -193,16 +193,6 @@
                   <li>Unix Shell</li>
                 </ul>
               </div>
-              <div class="contenedor-pie">
-                <div class="circleChart" id="cuarenta"></div>
-                <ul class="lista-skills">
-                  <li><span>&#x25cf;&#x25cf;&#x25cb;&#x25cb;&#x25cb;</span></li>
-                  <li>MATLAB</li>
-                  <li>Swift 4</li>
-                  <li>SQL-92</li>
-                  <li>HTML5 & CSS3</li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>
@@ -285,8 +275,9 @@
       }
     })
     
-    var owl = $('.owl-skills').addClass('owl-carousel').owlCarousel({
+    $('.owl-skills').addClass('owl-carousel').owlCarousel({
         loop:false,
+        rewind: true,
         margin:10,
         nav:true,
         dots:false,
@@ -304,7 +295,7 @@
   <script src="//code.jquery.com/jquery-3.1.1.slim.min.js"></script>
   <script src="RingChart/src/circleChart.js"></script>
   <script type="text/javascript">
-    owl.on('translate.owl.carousel', function(event) {$("#cien").circleChart({
+    owl.on('add.owl.carousel', function(event) {$("#cien").circleChart({
       color:"#45B39D",
       backgroundColor:"#e6e6e6",
       background:true,
@@ -328,7 +319,7 @@
       onDraw:function(){}
     });})
     
-    owl.on('translate.owl.carousel', function(event) {$("#ochenta").circleChart({
+    owl.on('add.owl.carousel', function(event) {$("#ochenta").circleChart({
       color:"#45B39D",
       backgroundColor:"#e6e6e6",
       background:true,
@@ -352,7 +343,7 @@
       onDraw:function(){}
     });})
     
-    owl.on('translate.owl.carousel', function(event) {$("#sesenta").circleChart({
+    owl.on('add.owl.carousel', function(event) {$("#sesenta").circleChart({
       color:"#45B39D",
       backgroundColor:"#e6e6e6",
       background:true,
@@ -376,7 +367,11 @@
       onDraw:function(){}
     });})
     
-    owl.on('translate.owl.carousel', function(event) {$("#cuarenta").circleChart({
+    $('.owl-skills').owlCarousel('add', 
+       '<div class="contenedor-pie"><div class="circleChart" id="cuarenta"></div><ul class="lista-skills"><li><span>'+
+       '&#x25cf;&#x25cf;&#x25cb;&#x25cb;&#x25cb;</span></li><li>MATLAB</li><li>Swift 4</li><li>SQL-92</li><li>HTML5 & CSS3</li></ul></div>').owlCarousel('update');
+    
+    $("#cuarenta").circleChart({
       color:"#45B39D",
       backgroundColor:"#e6e6e6",
       background:true,
@@ -398,7 +393,7 @@
       relativeTextSize: 1 / 7,
       autoCss:true,
       onDraw:function(){}
-    });})
+    });
 </script>
   
 </body>
