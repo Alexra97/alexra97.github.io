@@ -176,11 +176,19 @@ ul {
   text-align: center;
 }
 
+.lista-lang li:nth-child(1) {
+  font-size: 23px;
+}
+
 .lista-lang {
   list-style: none;
   line-height: 31px;
   font-size: 19px;
   text-align: center;
+}
+
+.lista-lang li:nth-child(1) {
+  font-size: 23px;
 }
 
 .lista-lang li:nth-child(2) {
