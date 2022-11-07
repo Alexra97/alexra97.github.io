@@ -178,7 +178,14 @@ ul {
   width: 20%;
 }
 
-.lista-skills .lista-lang {
+.lista-skills  {
+  list-style: none;
+  line-height: 31px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.lista-lang {
   list-style: none;
   line-height: 31px;
   font-size: 19px;
@@ -294,7 +301,7 @@ span {
   margin-bottom: 50px;
 }
 
-/* SECCIÓN CONTACTO */
+/* CONTACT */
 #contacto form {
   display: flex;
   justify-content: space-between;
