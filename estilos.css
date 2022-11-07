@@ -212,6 +212,7 @@ p {
 .line {
   border-left: 6px;
   height: 500px;
+  width: 2px;
   color: #424949;
 }
 
@@ -250,6 +251,8 @@ span {
 /* CONTACT */
 
 #contacto input[type="submit"] {
+    border-radius: 25px;
+    border: 2px solid #45B39D;
     font-size: 14px;
     color: #fff;
     background: #45B39D;
