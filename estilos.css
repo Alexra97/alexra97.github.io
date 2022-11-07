@@ -215,6 +215,12 @@ p {
     color: #45B39D;
 }
 
+.line {
+  border-left: 6px;
+  height: 500px;
+  color: #424949;
+}
+
 /* MY PROJECTS */
 
 #my-projects {
