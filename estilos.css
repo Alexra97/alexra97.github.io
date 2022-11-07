@@ -189,6 +189,14 @@ ul {
   color: #45B39D;
 }
 
+.lista-lang li:nth-child(1) {
+  color: #A93226;
+}
+
+.lista-lang li:nth-child(2) {
+  font-weight: bold;
+}
+
 ul {
  flex-direction: column; 
  padding-inline-start: 0px;
@@ -201,6 +209,10 @@ h4 {
 
 p {
   margin-bottom: 20px;
+}
+
+.owl-lang .owl-nav {
+    color: #45B39D;
 }
 
 /* MY PROJECTS */
