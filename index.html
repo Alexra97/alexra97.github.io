@@ -205,6 +205,26 @@
               </div>
             </div>
           </div>
+          <div class="carousel">
+            <div class="owl-lang owl-theme">
+              <div class="contenedor-pie">
+                <div class="circleChart" id="sesenta2"></div>
+                <ul class="lista-lang">
+                  <li><span class="lang">&#x25cf;&#x25cf;&#x25cf;&#x25cb;&#x25cb;</span></li>
+                  <li>English</li>
+                  <li>B2 First (FCE)</li>
+                </ul>
+              </div>
+              <div class="contenedor-pie">
+                <div class="circleChart" id="cien2"></div>
+                <ul class="lista-lang">
+                  <li><span class="lang">&#x25cf;&#x25cf;&#x25cf;&#x25cf;&#x25cf;</span></li>
+                  <li>Spanish</li>
+                  <li>Native</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -286,6 +306,19 @@
     })
     
     var owl = $('.owl-skills').addClass('owl-carousel').owlCarousel({
+        loop:false,
+        rewind: true,
+        margin:10,
+        nav:true,
+        dots:false,
+        center: true,
+        autoplay: true,
+        autoplayHoverPause: true,
+        lazyLoad: true,
+        items: 1,
+    });
+    
+    var owl2 = $('.owl-lang').addClass('owl-carousel').owlCarousel({
         loop:false,
         rewind: true,
         margin:10,
@@ -408,6 +441,54 @@
       speed: 1500,
       widthRatio: 0.2,
       value: 40,
+      unit:'percent',
+      counterclockwise:false,
+      size: 200,
+      startAngle: 75,
+      animate:true,
+      backgroundFix:true,
+      lineCap:"round",
+      animation:"easeInOutCubic",
+      redraw:true,
+      cAngle: 0.1,
+      textCenter:false,
+      textSize:false,
+      relativeTextSize: 1 / 7,
+      autoCss:true,
+      onDraw:function(){}
+    });})
+    
+    owl2.on('change.owl.carousel', function(event) {$("#sesenta2").circleChart({
+      color:"#A93226",
+      backgroundColor:"#e6e6e6",
+      background:true,
+      speed: 1500,
+      widthRatio: 0.2,
+      value: 66,
+      unit:'percent',
+      counterclockwise:false,
+      size: 200,
+      startAngle: 75,
+      animate:true,
+      backgroundFix:true,
+      lineCap:"round",
+      animation:"easeInOutCubic",
+      redraw:true,
+      cAngle: 0.1,
+      textCenter:false,
+      textSize:false,
+      relativeTextSize: 1 / 7,
+      autoCss:true,
+      onDraw:function(){}
+    });})
+    
+    owl2.on('change.owl.carousel', function(event) {$("#cien2").circleChart({
+      color:"#A93226",
+      backgroundColor:"#e6e6e6",
+      background:true,
+      speed: 1500,
+      widthRatio: 0.2,
+      value: 100,
       unit:'percent',
       counterclockwise:false,
       size: 200,
