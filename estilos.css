@@ -234,7 +234,8 @@ span {
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin: auto;
+  max-width: 95%;
 }
 
 .links {
