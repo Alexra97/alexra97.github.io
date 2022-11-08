@@ -234,8 +234,8 @@ span {
     color: #7F8C8D;
 }
 
-/* HEADER CONTACT */
-#header-contact {
+/* CONTACT */
+#contact {
   background: linear-gradient(rgba(84, 93, 220, .94),
               rgba(69, 179, 157, .9));
   text-align: center;
@@ -243,55 +243,13 @@ span {
   margin-top: 40px;
 }
 
-#header-contact h3 {
+#contact h3 {
   color: #fff;
 }
 
-.contenedor-h-contact {
+.contenedor-contact {
   margin-top: 50px;
   margin-bottom: 50px;
-}
-
-/* CONTACT */
-
-#contacto input[type="submit"] {
-    border-radius: 25px;
-    border: 2px solid #45B39D;
-    font-size: 14px;
-    color: #fff;
-    background: #45B39D;
-    padding: 14px 24px;
-    width: 128px;
-    display: inline-block;
-    width: 166px;
-    margin: auto;
-    margin-bottom: 5vh;
-}
-
-#contacto form {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 77%;
-  margin: auto;
-}
-
-input[type="text"], input[type="email"] {
-  width: 49%;
-  margin-bottom: 15px;
-  padding: 18px 0;
-  border: 0;
-  border-bottom: 1px solid #45B39D;
-  font-size: 17px;
-}
-
-textarea {
-  padding: 18px 0;
-  border: 0;
-  border-bottom: 1px solid #45B39D;
-  font-size: 17px;
-  margin-bottom: 40px;
-  width: 100%;
 }
 
 .menu-icon {
