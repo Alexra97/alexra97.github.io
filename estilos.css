@@ -222,15 +222,11 @@ span {
 
 /* CONTACT */
 #contact {
-  background: linear-gradient(rgba(84, 93, 220, .94),
-              rgba(69, 179, 157, .9));
+  background: linear-gradient(rgba(69, 179, 157, .9),
+              rgba(127, 140, 141, .9));
   text-align: center;
   padding: 5px 0;
   margin-top: 40px;
-}
-
-#contact h3 {
-  color: #fff;
 }
 
 .contenedor-contact {
@@ -240,9 +236,10 @@ span {
   justify-content: space-evenly;
 }
 
-.contenedor-contact a, i {
+.info {
   color: #fff;
   font-style: none;
+  display: flex;
 }
 
 .menu-icon {
