@@ -169,7 +169,7 @@ ul {
   width: 20%;
 }
 
-.lista-skills {
+.lista-skills, .lista-lang {
   list-style: none;
   line-height: 31px;
   font-size: 19px;
@@ -178,13 +178,6 @@ ul {
 
 .lista-skills li:nth-child(1) {
   font-size: 23px;
-}
-
-.lista-lang {
-  list-style: none;
-  line-height: 31px;
-  font-size: 19px;
-  text-align: center;
 }
 
 .lista-lang li:nth-child(1) {
@@ -207,13 +200,6 @@ h4 {
 
 p {
   margin-bottom: 20px;
-}
-
-.line {
-  border-left: 6px;
-  height: 500px;
-  width: 2px;
-  color: #424949;
 }
 
 .owl-skills .owl-stage-outer {
@@ -254,10 +240,9 @@ span {
   justify-content: space-evenly;
 }
 
-.contenedor-contact a {
+.contenedor-contact a, i {
   color: #fff;
   font-style: none;
-  display: flex;
 }
 
 .menu-icon {
