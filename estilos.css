@@ -250,6 +250,8 @@ span {
   display: flex;
   font-size: 17px;
   align-items: center;
+  width: 418px;
+  justify-content: center;
 }
 
 .contenedor-contact h3 {
