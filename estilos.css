@@ -255,9 +255,9 @@ span {
 }
 
 .contenedor-contact a {
-  font-size: 36px;
   color: #fff;
   font-style: none;
+  display: flex;
 }
 
 .menu-icon {
