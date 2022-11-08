@@ -222,8 +222,8 @@ span {
 
 /* CONTACT */
 #contact {
-  background: linear-gradient(rgba(69, 179, 157, .9),
-              rgba(127, 140, 141, .9));
+  background: linear-gradient(rgba(75,130,120, .9),
+              rgba(70,70,70, .9));
   text-align: center;
   padding: 5px 0;
   margin-top: 40px;
@@ -241,6 +241,11 @@ span {
   font-style: none;
   display: flex;
   font-size: 17px;
+  align-items: center;
+}
+
+.contenedor-contact h3 {
+  color: #fff;
 }
 
 .menu-icon {
