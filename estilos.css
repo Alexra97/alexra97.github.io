@@ -236,6 +236,7 @@ span {
   flex-direction: column;
   margin: auto;
   max-width: 95%;
+  margin-bottom: 6vh;
 }
 
 .links {
