@@ -250,6 +250,14 @@ span {
 .contenedor-contact {
   margin-top: 50px;
   margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contenedor-contact a {
+  font-size: 36px;
+  color: #fff;
+  font-style: none;
 }
 
 .menu-icon {
