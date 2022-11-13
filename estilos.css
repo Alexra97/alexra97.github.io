@@ -268,7 +268,7 @@ span {
     position: absolute;
     top: 70px;
     left: 0px;
-    background: #5cb8ff;
+    background: #45B39D;
     width: 100%;
     display: none;
   }
@@ -276,6 +276,7 @@ span {
   nav .lista {
     flex-direction: column;
     display: flex;
+    margin-left: 20px;
   }
   
   .menu-icon {
@@ -283,16 +284,32 @@ span {
     width: 25px;
   }
   
+  .contenedor {
+    margin-bottom: 100px;
+    margin-top: 60px;
+  }
+  
   h1 {
-    font-size: 49px;
+    font-size: 34px;
   }
   
   h2 {
-    font-size: 19px;
+    font-size: 15px;
+  }
+  
+  .perfil {
+    height: 330px; 
   }
   
   .contenedor-aboutme {
     flex-direction: column;
+    text-align: center;
+  }
+  
+  #about-me .texto {
+    width: 95%; 
+    margin-top: 3vh;
+    margin-left: 3%;
   }
   
   .texto {
