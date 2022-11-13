@@ -367,7 +367,38 @@ span {
 }
 
 /* IPAD */
-@media (min-width: 700px) and (max-width:900px) {
+@media (min-width: 700px) and (max-width:1000px) {
  header {
    height: 53vh;
+ }
+  
+ .contenedor-aboutme {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #about-me .texto {
+    width: 95%; 
+    margin-top: 3vh;
+    margin-left: 3%;
+  }
+  
+  .texto {
+    width: 90%;
+  }
+  
+  .carousel {
+    margin-bottom: 16%;
+    width: 26%;
+  }
+  
+  .h4 {
+    font-size: 16px;
+    margin: 14px;
+  
+  .links {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3%;
+  }
 }
