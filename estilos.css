@@ -281,7 +281,8 @@ span {
   
   .menu-icon {
     display: block;
-    width: 25px;
+    height: 33px;
+    margin-top: 18px;
   }
   
   .contenedor {
@@ -316,14 +317,13 @@ span {
     width: 90%;
   }
   
-  .contendor-courses {
+  .contenedor-skills {
     flex-direction: column;
+    align-items: center;
   }
   
-  .courses {
-    width: 72%;
-    margin: auto;
-    margin-bottom: 15px;
+  .carousel {
+    width: 56%;
   }
   
   h3 {
@@ -332,6 +332,7 @@ span {
   
   .contenedor-institutions, .contenedor-institutions2 {
     flex-direction: column;
+    align-items: center;
   }
   
   .item {
