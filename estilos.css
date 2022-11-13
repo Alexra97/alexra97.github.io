@@ -324,6 +324,7 @@ span {
   
   .carousel {
     margin-bottom: 16%;
+    width: 56%;
   }
   
   h3 {
@@ -335,7 +336,7 @@ span {
     align-items: center;
   }
   
-  .item {
+  #institutions .item {
     width: 90%;
   }
   
