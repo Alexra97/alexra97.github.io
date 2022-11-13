@@ -259,6 +259,11 @@
 
   </main>
 
+  <script>
+    $('.menu-icon').click(function(){
+      $('header nav').slideToggle();
+    })  
+  </script>
   <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -311,10 +316,6 @@
         lazyLoad: true,
         items: 1,
     });
-    
-  $('.menu-icon').click(function(){
-  $('header nav').slideToggle();
-  })  
   </script>
   <script src="//code.jquery.com/jquery-3.1.1.slim.min.js"></script>
   <script src="RingChart/src/circleChart.js"></script>
