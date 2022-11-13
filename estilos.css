@@ -282,7 +282,8 @@ span {
   .menu-icon {
     display: block;
     height: 33px;
-    margin-top: 18px;
+    margin-top: 19px;
+    margin-right: 3%;
   }
   
   .contenedor {
