@@ -206,6 +206,10 @@ p {
   height: 370px;
 }
 
+.owl-carousel .owl-item {
+  height: 21vh;
+}
+
 /* MY PROJECTS */
 
 #my-projects {
