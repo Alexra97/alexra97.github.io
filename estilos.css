@@ -375,6 +375,10 @@ span {
   .carousel {
     width: 30%;
   }
+  
+  .owl-carousel .owl-item img {
+    height: 10vh;
+  }
 }
 
   
